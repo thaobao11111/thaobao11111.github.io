@@ -1,0 +1,8 @@
+Origin: Repo Manager thaobao Default Origin
+Label: Repo Manager thaobao Default Name
+Suite: stable
+Version: 1.0
+Codename: iospackagemanagerthaobao
+Architectures: iphoneos-arm
+Components: main
+Description: Made with Repo Manager thaobao

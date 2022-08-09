@@ -1,0 +1,21 @@
+Package: com.ichitaso.undecimus
+Version: 8.0.3
+Section: Applications
+Architecture: iphoneos-arm
+Depends: firmware (>=14.0), firmware (<<15.0)
+Description: Hoạt động ngay cả sau khi khởi động lại do Permasigner đã ký lại chưa qua máy chủ (iOS 14.0 - 14.8)
+Name: unc0ver - Permasigner
+Author: unc0ver
+Maintainer: Repo Cydia fewly11
+Tags: compatible_min::ios14.0, compatible_max::ios14.8
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Depiction: http://bvnsupport-jailbreak.github.io/infodeb/unc0ver/?p=info
+Filename: debs/com.ichitaso.undecimus_8.0.3_iphoneos-arm(1).deb
+Depiction: https://thaobao11111.github.io/depictions/com.ichitaso.undecimus.html
+Icon: https://thaobao11111.github.io/icons/com.ichitaso.undecimus.png
+Size: 54459212
+MD5sum: 768b00569cd2dcdecbde92bb5764a88c
+SHA1: 87ddb9f46888179d1679c381410583ffc9cde42f
+SHA256: e63eb395bee2a2658305f09f9263c81b70fcba0cc65c04048b0074eb9c0a9c86
+SHA521: 9bed9723dee33c58b08372265055980d9a6f4a5f8daaadf26520c2de9258f5ee315933ec3f3c9fb664ba132cf66e31b44bfd132cf0fb5514b8258e21a133559a
+
