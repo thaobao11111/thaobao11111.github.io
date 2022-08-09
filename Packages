@@ -60,3 +60,24 @@ SHA1: 87ddb9f46888179d1679c381410583ffc9cde42f
 SHA256: e63eb395bee2a2658305f09f9263c81b70fcba0cc65c04048b0074eb9c0a9c86
 SHA521: 9bed9723dee33c58b08372265055980d9a6f4a5f8daaadf26520c2de9258f5ee315933ec3f3c9fb664ba132cf66e31b44bfd132cf0fb5514b8258e21a133559a
 
+Package: com.sugiuta.plbattery
+Name: PLBattery
+Architecture: iphoneos-arm
+Depiction: https://sugiuta.github.io/descriptions/index.html?p=com.sugiuta.plbattery
+Description: Display a percentage label on the battery icon.
+Maintainer: sugiuta
+Author: sugiuta
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://sugiuta.github.io/descriptions/com.sugiuta.plbattery/PLBattery.png
+Version: 1.0.0
+Installed-Size: 168
+Filename: debs/com.sugiuta.plbattery_1.0.0_iphoneos-arm.deb
+Depiction: https://thaobao11111.github.io/depictions/com.sugiuta.plbattery.html
+Icon: https://thaobao11111.github.io/icons/com.sugiuta.plbattery.png
+Size: 4628
+MD5sum: 8168d9fead388b4783f883432fa2c379
+SHA1: 4c60ae1ed2b64379bdf20a9b97e84c7cce75367a
+SHA256: 6bd97646a5c77a06b232d6257504cfc0f90c1e81258d6792775d5dc0d9ad8519
+SHA521: a781861a3737504df603b88143835a04fa6d8ab15692df894fd30f87ebb51fedfd2e9e8707e1277b5a28a0a1dfc1b3dc808c9dd3847a0448aa19687c5b370865
+
