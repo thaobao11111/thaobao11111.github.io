@@ -19,3 +19,24 @@ SHA1: 87ddb9f46888179d1679c381410583ffc9cde42f
 SHA256: e63eb395bee2a2658305f09f9263c81b70fcba0cc65c04048b0074eb9c0a9c86
 SHA521: 9bed9723dee33c58b08372265055980d9a6f4a5f8daaadf26520c2de9258f5ee315933ec3f3c9fb664ba132cf66e31b44bfd132cf0fb5514b8258e21a133559a
 
+Package: com.fewly1.appshacks
+Version: 4.4
+Section: Tweaks
+Maintainer: fewly1
+Description: Kích hoạt bản quyền cho các ứng dụng trả phí.
+Depends: mobilesubstrate, ws.hbang.common
+Architecture: iphoneos-arm
+Installed-Size: 6220
+Name: Apps Hacks
+Author: hmodei96
+Depiction: fewly1.github.io
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Filename: debs/appshacks_4.deb
+Depiction: https://thaobao11111.github.io/depictions/com.fewly1.appshacks.html
+Icon: https://thaobao11111.github.io/icons/com.fewly1.appshacks.png
+Size: 3143312
+MD5sum: 0d222a09d55d385e5b911db8804292f4
+SHA1: 9082ac584f9e37b4eddcf7fb1fd790b2ac6caa55
+SHA256: eb39d0171c3720f28e746006065f83b9b3d2b599909ed499208be9aa30fdd52b
+SHA521: 8185a32ab5adbfed54af2be51aa8f7f0ca679a980b0c15f4913c4f1cc9e529c63b9940aacb642921524e96b1d0df84a9ed2506360461fdca311f1620c5a2b9b4
+
