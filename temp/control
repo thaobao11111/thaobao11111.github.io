@@ -1,12 +1,12 @@
-Package: com.fewly1.appshacks
-Version: 4.4
-Section: Tweaks
-Maintainer: fewly1
-Description: Kích hoạt bản quyền cho các ứng dụng trả phí.
-Depends: mobilesubstrate, ws.hbang.common
+Package: com.ichitaso.undecimus
+Version: 8.0.3
+Section: Applications
 Architecture: iphoneos-arm
-Installed-Size: 6220
-Name: Apps Hacks
-Author: hmodei96
-Depiction: fewly1.github.io
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Depends: firmware (>=14.0), firmware (<<15.0)
+Description: Hoạt động ngay cả sau khi khởi động lại do Permasigner đã ký lại chưa qua máy chủ (iOS 14.0 - 14.8)
+Name: unc0ver - Permasigner
+Author: unc0ver
+Maintainer: Repo Cydia fewly11
+Tags: compatible_min::ios14.0, compatible_max::ios14.8
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Depiction: http://bvnsupport-jailbreak.github.io/infodeb/unc0ver/?p=info
