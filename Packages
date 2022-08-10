@@ -147,3 +147,24 @@ SHA1: 4c60ae1ed2b64379bdf20a9b97e84c7cce75367a
 SHA256: 6bd97646a5c77a06b232d6257504cfc0f90c1e81258d6792775d5dc0d9ad8519
 SHA521: a781861a3737504df603b88143835a04fa6d8ab15692df894fd30f87ebb51fedfd2e9e8707e1277b5a28a0a1dfc1b3dc808c9dd3847a0448aa19687c5b370865
 
+Package: com.supportjailbreak.appstore
+Version: 0.9.18
+Priority: optional
+Section: Tweaks
+Maintainer: Biện Văn Nhật
+Description: Cho phép bạn hạ cấp/nâng cấp ứng dụng trong AppStore.Cho phép bạn hạ cấp & nâng cấp ứng dụng trong AppStore, chặn cập nhật, vượt qua giới hạn tải xuống 200 MB, tắt quảng cáo tìm kiếm và vô hiệu hóa ứng dụng. Cách sử dụng: Sau khi cài đặt, bạn chỉ cần nhấn giữ vào mục tải về trong các ứng dụng sẽ hiển thị danh sách phiên bản của ứng dụng đó.Hỗ trợ Ios 11-14.9
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Architecture: iphoneos-arm
+Name: AppStore+++
+Author: CokePokes
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Filename: debs/com.supportjailbreak.appstore_0.9.18_iphoneos-arm.deb
+Depiction: https://thaobao11111.github.io/depictions/com.supportjailbreak.appstore.html
+Icon: https://thaobao11111.github.io/icons/com.supportjailbreak.appstore.png
+Size: 3688804
+MD5sum: 70be7cd521950dd1fb5a5cb991364d03
+SHA1: d7a398b68774856ad2791c35fb214166d4778601
+SHA256: 65e119a1f7dea089822b4f3dde976957be2b6aad44a3481bd77de500d7c168f5
+SHA521: b6c1f78798a02270d460c5727898d406ae6a9b0666c3e57855bdddeac3a81722ddb242dd23d32dbdf2b4020fa2d7949eb8851adbbd4603792b4026d80026b1db
+
