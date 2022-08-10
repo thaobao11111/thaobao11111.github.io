@@ -148,6 +148,27 @@ SHA1: d7a398b68774856ad2791c35fb214166d4778601
 SHA256: 65e119a1f7dea089822b4f3dde976957be2b6aad44a3481bd77de500d7c168f5
 SHA521: b6c1f78798a02270d460c5727898d406ae6a9b0666c3e57855bdddeac3a81722ddb242dd23d32dbdf2b4020fa2d7949eb8851adbbd4603792b4026d80026b1db
 
+Package: com.supportjailbreak.filza64bit
+Version: 3.8.2-6
+Section: Utilities
+Maintainer: BIỆN VĂN NHẬT
+Description: Trình quản lý tập tin cho iOS của bạn!
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Installed-Size: 21788
+Name: Filza File Manager VH
+Author: TIGI Software
+Icon: file:///Applications/Cydia.app/Sections/tienichh1.png
+Filename: debs/com.supportjailbreak.filza64bit_3.8.2-6_iphoneos-arm.deb
+Depiction: https://thaobao11111.github.io/depictions/com.supportjailbreak.filza64bit.html
+Icon: https://thaobao11111.github.io/icons/com.supportjailbreak.filza64bit.png
+Size: 8422392
+MD5sum: 1f8fe10c61bb4c5a35e1f4e870cd012c
+SHA1: 942b3741e97c7f9cc54007c5164b400bd22ec0a7
+SHA256: ee9c4a57babc8c67ce5b310ea308ac8ef6836bc653efa48d0d515ede63933ef8
+SHA521: 9591196c8d4cde020866147fd9a27bd7f5036b3dc877445019037ece22918eaee1fd09f3c6b640c53fa300fe82bc66aa8abe3751f32163082eee35c1e98b6222
+
 Name: Apps Manager
 Package: com.tigisoftware.appdatamanager
 Priority: optional
@@ -166,5 +187,11 @@ Installed-Size: 9122
 dev: satashi2009
 Icon: file:///Applications/ADManager.app/AppIcon60x60@2x.png
 
-
+Filename: debs/com.tigisoftware.appdatamanager_1.6.0-9_iphoneos-arm.deb
+Depiction: https://thaobao11111.github.io/depictions/com.tigisoftware.appdatamanager.html
+Size: 2465674
+MD5sum: 0ba512179dc4188e8858721268ff93f7
+SHA1: d69abcdb43303ae1ea7318d4e2b3922ed041ba22
+SHA256: 4d69b12ceb3c66f33974b5288bdb47f0387b2aee867ce3b116c307d45b66c921
+SHA521: b619cffb19a4ad39fe865e32f7ed04373eae72fa08658c38f0b948d594c45531edf8f7f9828dee84e09427de4afd2b96980b318e9c2fe694bb27aed559a46782
 
