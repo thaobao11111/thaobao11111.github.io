@@ -1,12 +1,12 @@
-Package: com.sugiuta.plbattery
-Name: PLBattery
-Architecture: iphoneos-arm
-Depiction: https://sugiuta.github.io/descriptions/index.html?p=com.sugiuta.plbattery
-Description: Display a percentage label on the battery icon.
-Maintainer: sugiuta
-Author: sugiuta
+Package: com.supportjailbreak.appstore
+Version: 0.9.18
+Priority: optional
 Section: Tweaks
-Depends: mobilesubstrate
-Icon: https://sugiuta.github.io/descriptions/com.sugiuta.plbattery/PLBattery.png
-Version: 1.0.0
-Installed-Size: 168
+Maintainer: Biện Văn Nhật
+Description: Cho phép bạn hạ cấp/nâng cấp ứng dụng trong AppStore.Cho phép bạn hạ cấp & nâng cấp ứng dụng trong AppStore, chặn cập nhật, vượt qua giới hạn tải xuống 200 MB, tắt quảng cáo tìm kiếm và vô hiệu hóa ứng dụng. Cách sử dụng: Sau khi cài đặt, bạn chỉ cần nhấn giữ vào mục tải về trong các ứng dụng sẽ hiển thị danh sách phiên bản của ứng dụng đó.Hỗ trợ Ios 11-14.9
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Architecture: iphoneos-arm
+Name: AppStore+++
+Author: CokePokes
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
