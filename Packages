@@ -1,3 +1,24 @@
+Package: com.fewly1.appshacks
+Version: 4.4
+Section: Tweaks
+Maintainer: fewly1
+Description: Kích hoạt bản quyền cho các ứng dụng trả phí.
+Depends: mobilesubstrate, ws.hbang.common
+Architecture: iphoneos-arm
+Installed-Size: 6220
+Name: Apps Hacks
+Author: hmodei96
+Depiction: fewly1.github.io
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Filename: debs/appshacks_4.deb
+Depiction: https://thaobao11111.github.io/depictions/com.fewly1.appshacks.html
+Icon: https://thaobao11111.github.io/icons/com.fewly1.appshacks.png
+Size: 3143312
+MD5sum: 0d222a09d55d385e5b911db8804292f4
+SHA1: 9082ac584f9e37b4eddcf7fb1fd790b2ac6caa55
+SHA256: eb39d0171c3720f28e746006065f83b9b3d2b599909ed499208be9aa30fdd52b
+SHA521: 8185a32ab5adbfed54af2be51aa8f7f0ca679a980b0c15f4913c4f1cc9e529c63b9940aacb642921524e96b1d0df84a9ed2506360461fdca311f1620c5a2b9b4
+
 Package: com.sugiuta.plbattery
 Name: PLBattery
 Architecture: iphoneos-arm
@@ -18,3 +39,4 @@ MD5sum: 8168d9fead388b4783f883432fa2c379
 SHA1: 4c60ae1ed2b64379bdf20a9b97e84c7cce75367a
 SHA256: 6bd97646a5c77a06b232d6257504cfc0f90c1e81258d6792775d5dc0d9ad8519
 SHA521: a781861a3737504df603b88143835a04fa6d8ab15692df894fd30f87ebb51fedfd2e9e8707e1277b5a28a0a1dfc1b3dc808c9dd3847a0448aa19687c5b370865
+
