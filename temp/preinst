@@ -1,6 +1,0 @@
-#!/bin/bash
-
-launchctl unload -w /Library/LaunchDaemons/gg_daemon.plist
-launchctl unload -w /Library/LaunchDaemons/com.apple.gg.daemon.plist
-
-exit 0
