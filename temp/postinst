@@ -1,5 +1,16 @@
 #!/bin/bash
-chown -R root:admin /Applications/ADManager.app
-chown root /usr/bin/ADMHelper
-chmod ug+s /usr/bin/ADMHelper
-/usr/bin/ADMHelper exec uicache  &> /dev/null
+dir=$(dirname "$0")
+chown root:wheel /Applications/iGameGuardian.app/loader
+chmod 6755 /Applications/iGameGuardian.app/loader
+
+cp /Applications/iGameGuardian.app/aqua.gg.*.plist /Library/LaunchDaemons/
+launchctl load -w /Library/LaunchDaemons/aqua.gg.loader.plist
+
+if [[ ! -d /var/mobile/Library/iGameGuardian ]]; then
+    mkdir /var/mobile/Library/iGameGuardian
+    chown mobile /var/mobile/Library/iGameGuardian
+fi
+
+uicache
+
+exit 0

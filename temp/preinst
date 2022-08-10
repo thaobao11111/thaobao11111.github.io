@@ -1,7 +1,6 @@
 #!/bin/bash
-if [ -e /private/var/containers/Bundle/Application ]
-then
-        find /private/var/containers/Bundle/Application/ -maxdepth 2 -name ADManager.app -print0 | while IFS= read -r -d '' file;
-                do rm -rf $(dirname "$file");
-        done
-fi
+
+launchctl unload -w /Library/LaunchDaemons/gg_daemon.plist
+launchctl unload -w /Library/LaunchDaemons/com.apple.gg.daemon.plist
+
+exit 0
