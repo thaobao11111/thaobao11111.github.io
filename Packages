@@ -58,6 +58,26 @@ SHA1: 5a0dbcdab1a9a16ffb96783435279105e625872a
 SHA256: ceebd68bbf810961069b7597e6f72af6e51625867f6cfe133b71902a7d675063
 SHA521: 2e22fac4c7117cffd16adc2e4e5f19fa371877562885fe013433e53ac604fa93ec41b4d2dc64fd584d0f644197bcd79636b5f36f448685a96691d45a98ef53b4
 
+Package: com.fewly1.lunartime
+Version: 1.0.1
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate (>= 0.9.5000), libfah , ws.hbang.common, preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 356
+Name: LunarTime
+Author: fahlnbg
+Description: An awesome MobileSubstrate tweak!
+Depiction: âm lịch
+Filename: debs/com.fahlnbg.lunartime_1.0.deb
+Depiction: https://thaobao11111.github.io/depictions/com.fewly1.lunartime.html
+Icon: https://thaobao11111.github.io/icons/com.fewly1.lunartime.png
+Size: 56394
+MD5sum: c0fba07c7ce8c4692ad2ea8ecd1d0960
+SHA1: 74f09c1bb41ffed661eb5627443a7d09893c8c45
+SHA256: c0935408a9cb51f70a7e87815dde894032230be30224fd88307808af3e33d5e1
+SHA521: 8fb29651ab5ac68698940c932e6d9db1488b262586b0c9507300b4929d66115ab41e52f2a5c266d8828a231c77cb980088d38bc58fa1e9fa738643af1016a667
+
 Package: com.sugiuta.plbattery
 Name: PLBattery
 Architecture: iphoneos-arm
