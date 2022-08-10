@@ -60,6 +60,33 @@ SHA1: 87ddb9f46888179d1679c381410583ffc9cde42f
 SHA256: e63eb395bee2a2658305f09f9263c81b70fcba0cc65c04048b0074eb9c0a9c86
 SHA521: 9bed9723dee33c58b08372265055980d9a6f4a5f8daaadf26520c2de9258f5ee315933ec3f3c9fb664ba132cf66e31b44bfd132cf0fb5514b8258e21a133559a
 
+Architecture: iphoneos-arm
+Package: com.powen.permasignerios
+Name: permasigneriOS
+Version: 0.2.1
+Depiction: https://powenn.github.io/PowenRepo/depiction/web/com.powen.permasignerios.html
+SileoDepiction: https://powenn.github.io/PowenRepo/depiction/native/com.powen.permasignerios.json
+ModernDepiction: https://powenn.github.io/PowenRepo/depiction/native/com.powen.permasignerios.json
+Icon: https://powenn.github.io/PowenRepo/assets/com.powen.permasignerios/icon.png
+Description: permasigner on iOS
+Homepage: https://powenn.github.io/PowenRepo/
+Section: Applications
+Pre-Depends: firmware (>= 14.0)
+Depends: firmware (>=14.0), dpkg, ldid , bash, plutil | com.bingner.plutil
+Tags: compatible_min::ios14.0, compatible_max::ios15.4.1
+Author: Powen <powen0966091716@gmail.com>
+Maintainer: Powen <powen0966091716@gmail.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.powen.permasignerios_0.2.1_iphoneos-arm.deb
+Depiction: https://thaobao11111.github.io/depictions/com.powen.permasignerios.html
+Icon: https://thaobao11111.github.io/icons/com.powen.permasignerios.png
+Size: 4744704
+MD5sum: a5f236cd262825ca05b262c2090f7239
+SHA1: 4225df54bf2f65644d526314a551216d42b72bb1
+SHA256: c5479d8b28105c0295955c340da630b4c795c5b6a170aff35cfedf16f87503f0
+SHA521: c34a32e118dac6481f91cb9cf51a0dded992af2b7c372950b337a2ef4b46233572225bd61303136fc2015e1a4192bab3824fa53681569d5287f00b2e3537723a
+
 Package: com.sugiuta.plbattery
 Name: PLBattery
 Architecture: iphoneos-arm
