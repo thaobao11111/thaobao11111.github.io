@@ -19,6 +19,26 @@ SHA1: 9082ac584f9e37b4eddcf7fb1fd790b2ac6caa55
 SHA256: eb39d0171c3720f28e746006065f83b9b3d2b599909ed499208be9aa30fdd52b
 SHA521: 8185a32ab5adbfed54af2be51aa8f7f0ca679a980b0c15f4913c4f1cc9e529c63b9940aacb642921524e96b1d0df84a9ed2506360461fdca311f1620c5a2b9b4
 
+Package: com.BIENVANNHAT.iGameGuardian8.3
+Description: iGameGuardian là một công cụ gian lận trò chơi dành cho iOS 8.x/14.9 
+Version: 8.3-1
+Priority: optional
+Section: Tweaks
+Maintainer: Biện Văn Nhật
+Architecture: iphoneos-arm
+Installed-Size: 15000
+Name: iGameGuardian VH
+Author: Aqua Wu <igameguardian@gmail.com>
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Filename: debs/com.bienvannhat.igameguardian8.3_8.3-1_iphoneos-arm.deb
+Depiction: https://thaobao11111.github.io/depictions/com.BIENVANNHAT.iGameGuardian8.3.html
+Icon: https://thaobao11111.github.io/icons/com.BIENVANNHAT.iGameGuardian8.3.png
+Size: 447132
+MD5sum: 9334d16a5d81106cd2fa0c260757ca77
+SHA1: 1fa74f79fe5b7bbd13a6e5721391a686782adb46
+SHA256: 1a3cd4d1785d929a8705479967bbe6ae1a17385cadaf76ff3756a1745f614539
+SHA521: fb5298203dc5cac67d16c65726650085f8e9a9c6666a6438f9a31bfc626a56d90218bd1fc8bb37c9b422580dd917cdab0fcb1dec368aa0a47b31faa825eb4bad
+
 Package: com.sugiuta.plbattery
 Name: PLBattery
 Architecture: iphoneos-arm
@@ -39,3 +59,4 @@ MD5sum: 8168d9fead388b4783f883432fa2c379
 SHA1: 4c60ae1ed2b64379bdf20a9b97e84c7cce75367a
 SHA256: 6bd97646a5c77a06b232d6257504cfc0f90c1e81258d6792775d5dc0d9ad8519
 SHA521: a781861a3737504df603b88143835a04fa6d8ab15692df894fd30f87ebb51fedfd2e9e8707e1277b5a28a0a1dfc1b3dc808c9dd3847a0448aa19687c5b370865
+

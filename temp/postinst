@@ -1,5 +1,0 @@
-#!/bin/bash
-chown -R root:admin /Applications/ADManager.app
-chown root /usr/bin/ADMHelper
-chmod ug+s /usr/bin/ADMHelper
-/usr/bin/ADMHelper exec uicache  &> /dev/null
