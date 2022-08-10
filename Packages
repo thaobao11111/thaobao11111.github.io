@@ -148,3 +148,23 @@ SHA1: d7a398b68774856ad2791c35fb214166d4778601
 SHA256: 65e119a1f7dea089822b4f3dde976957be2b6aad44a3481bd77de500d7c168f5
 SHA521: b6c1f78798a02270d460c5727898d406ae6a9b0666c3e57855bdddeac3a81722ddb242dd23d32dbdf2b4020fa2d7949eb8851adbbd4603792b4026d80026b1db
 
+Name: Apps Manager
+Package: com.tigisoftware.appdatamanager
+Priority: optional
+Depends: firmware (>= 7.0)
+Version: 1.6.0-9
+Architecture: iphoneos-arm
+Description: tool to WIPE, BACKUP, RESTORE AppData for installed Apps
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: TIGI Software <satashi2009@gmail.com>
+Section: Utilities
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Installed-Size: 9122
+dev: satashi2009
+Icon: file:///Applications/ADManager.app/AppIcon60x60@2x.png
+
+
+
