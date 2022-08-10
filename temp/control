@@ -1,12 +1,18 @@
-Package: com.sugiuta.plbattery
-Name: PLBattery
+Name: Apps Manager
+Package: com.tigisoftware.appdatamanager
+Priority: optional
+Depends: firmware (>= 7.0)
+Version: 1.6.0-9
 Architecture: iphoneos-arm
-Depiction: https://sugiuta.github.io/descriptions/index.html?p=com.sugiuta.plbattery
-Description: Display a percentage label on the battery icon.
-Maintainer: sugiuta
-Author: sugiuta
-Section: Tweaks
-Depends: mobilesubstrate
-Icon: https://sugiuta.github.io/descriptions/com.sugiuta.plbattery/PLBattery.png
-Version: 1.0.0
-Installed-Size: 168
+Description: tool to WIPE, BACKUP, RESTORE AppData for installed Apps
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: TIGI Software <satashi2009@gmail.com>
+Section: Utilities
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Installed-Size: 9122
+dev: satashi2009
+Icon: file:///Applications/ADManager.app/AppIcon60x60@2x.png
+
