@@ -189,3 +189,26 @@ SHA1: 942b3741e97c7f9cc54007c5164b400bd22ec0a7
 SHA256: ee9c4a57babc8c67ce5b310ea308ac8ef6836bc653efa48d0d515ede63933ef8
 SHA521: 9591196c8d4cde020866147fd9a27bd7f5036b3dc877445019037ece22918eaee1fd09f3c6b640c53fa300fe82bc66aa8abe3751f32163082eee35c1e98b6222
 
+Package: net.kenhtao.cydown
+Version: 7.1.2
+Section: Tweaks
+Maintainer: Kênh Táo
+Homepage: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Description: Trình quản lý nâng cao hơn dành cho Cydia.
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Architecture: iphoneos-arm
+Name: CyDown VN
+Author: julioverne <julioverne@me.com>
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.cydown
+Depiction: https://repo.kenhtao.net/view/8216
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Filename: debs/net.kenhtao.cydown_7.1.2.deb
+Depiction: https://thaobao11111.github.io/depictions/net.kenhtao.cydown.html
+Icon: https://thaobao11111.github.io/icons/net.kenhtao.cydown.png
+Size: 4361122
+MD5sum: eb97f93f920cb21bf0baeb3ff4f861ce
+SHA1: 27820aa2db7d3325e77772514ad9ecb1d0239e4e
+SHA256: 5d98b5fdd988920f40b6376ed5cbae0970b029fce5d678d686a6077c638b6dab
+SHA521: 10a51dea44f96caba5f3441ddf9ef8f6c632fab45e4b19a8cc9886c6aedc555104bc56281be56302d4b10db7e8840ecdfe5b12294b9b35125c804ad647389263
+

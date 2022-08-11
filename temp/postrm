@@ -1,9 +1,7 @@
 #!/bin/bash
 
-rm -rf /usr/bin/Filza
+rm -rf //var/mobile/Library/Caches/com.saurik.Cydia/archives/partial/*
+rm -rf //var/mobile/Library/Application\ Support/xyz.willy.Zebra/debs/partial/
+rm -rf //etc/apt/apt.conf.d/cydownConf
 
-if [ -f /Library/LaunchDaemons/com.tigisoftware.filza.webdavserver.plist ]
-then
-	launchctl unload /Library/LaunchDaemons/com.tigisoftware.filza.webdavserver.plist
-	rm -rf /Library/LaunchDaemons/com.tigisoftware.filza.webdavserver.plist
-fi
+exit 0;

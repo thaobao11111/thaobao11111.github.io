@@ -1,12 +1,14 @@
-Package: com.supportjailbreak.filza64bit
-Version: 3.8.2-6
-Section: Utilities
-Maintainer: BIỆN VĂN NHẬT
-Description: Trình quản lý tập tin cho iOS của bạn!
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
+Package: net.kenhtao.cydown
+Version: 7.1.2
+Section: Tweaks
+Maintainer: Kênh Táo
+Homepage: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Description: Trình quản lý nâng cao hơn dành cho Cydia.
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
 Architecture: iphoneos-arm
-Installed-Size: 21788
-Name: Filza File Manager VH
-Author: TIGI Software
-Icon: file:///Applications/Cydia.app/Sections/tienichh1.png
+Name: CyDown VN
+Author: julioverne <julioverne@me.com>
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.cydown
+Depiction: https://repo.kenhtao.net/view/8216
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png

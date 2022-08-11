@@ -1,59 +1,42 @@
 #!/bin/bash
 
-if [ -e /Applications/Filza.app ]
-then
-	chown -R root:admin /Applications/Filza.app
-fi
+#rm -rf //var/mobile/Library/Preferences/com.julioverne.cydown.plist
+#rm -rf //var/mobile/Documents/CyDown/
+rm -rf //var/mobile/Library/Caches/com.saurik.Cydia/archives/partial/*
+rm -rf //var/mobile/Library/Application\ Support/xyz.willy.Zebra/debs/partial/
 
-chown root /usr/libexec/filza/FilzaHelper
-chown root /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
-launchctl load -w /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
+echo "* Setting up Permission CyDown Files..."
+mkdir -p //var/mobile/Documents/CyDown/
+chown -R 501:501 //var/mobile/Documents/CyDown/
+chmod -R 755 //var/mobile/Documents/CyDown/
+chown 0:0 //Library/MobileSubstrate/DynamicLibraries/CyDown.*
+chmod 755 //Library/MobileSubstrate/DynamicLibraries/CyDown.*
+mkdir -p //Library/PreferenceBundles/CyDownSettings.bundle/
+chown -R 0:0 //Library/PreferenceBundles/CyDownSettings.bundle/
+chmod -R 755 //Library/PreferenceBundles/CyDownSettings.bundle/
+chown 0:0 //Library/PreferenceLoader/Preferences/CyDownSettings.plist
+chmod 755 //Library/PreferenceLoader/Preferences/CyDownSettings.plist
+chown -R 0:0 //Library/Switches/CyDownSwitch.bundle/
+chmod -R 755 //Library/Switches/CyDownSwitch.bundle/
+chown 0:0 //usr/bin/cydown
+chmod 6755 //usr/bin/cydown
+chown -R 0:0 //Applications/cydown.app/
+chmod -R 775 //Applications/cydown.app/
+chmod 644 //Applications/cydown.app/Info.plist
+echo "* Setting up Permission CyDown Files... Done."
 
-chown root /usr/libexec/filza/Filza
-chmod ug+s /usr/libexec/filza/Filza
-rm -rf /usr/bin/Filza
-ln -s /usr/libexec/filza/Filza /usr/bin/Filza
+echo "* Running uicache..."
+su mobile -c uicache &>/dev/null
+echo "* Running uicache... Done."
 
-if [ -d /var/mobile/Library/Filza/.Trash ]
-then
-	chown mobile:mobile /var/mobile/Library/Filza/.Trash
-fi
+function finish() {
+	f="${1}"
+	[[ -z "${f}" || -z "${CYDIA}" ]] && return
+	cydia=(${CYDIA})
+	[[ ${cydia[1]} -eq 1 ]] || return
+	echo "finish:${f}" >&${cydia[0]}
+}
 
-if [ -d /var/mobile/Library/Filza/.Trash.metadata ]
-then
-	chown mobile:mobile /var/mobile/Library/Filza/.Trash.metadata
-fi
+finish return
 
-rm -rf /var/mobile/Library/Caches/ImageTables
-if [ -f /var/root/Library/Filza/extensions.plist ]
-then
-	rm -rf /var/mobile/Library/Filza/extensions.plist
-        mv /var/root/Library/Filza/extensions.plist /var/mobile/Library/Filza/extensions.plist
-	chown -R mobile:mobile /var/mobile/Library/Filza/extensions.plist
-fi
-
-if [ -f /var/root/Library/Filza/links.plist ]
-then
-        rm -rf /var/mobile/Library/Filza/links.plist
-        mv /var/root/Library/Filza/links.plist /var/mobile/Library/Filza/links.plist
-        chown -R mobile:mobile /var/mobile/Library/Filza/links.plist
-fi
-
-if [ -f /var/root/Library/Filza/filza.db ]
-then
-        rm -rf /var/mobile/Library/Filza/filza.db
-        mv /var/root/Library/Filza/filza.db /var/mobile/Library/Filza/filza.db
-        chown -R mobile:mobile /var/mobile/Library/Filza/filza.db
-fi
-
-if [ -f /var/root/Library/Preferences/com.tigisoftware.Filza.plist ]
-then
-	rm -rf /var/mobile/Library/Preferences/com.tigisoftware.Filza.plist
-        mv /var/root/Library/Preferences/com.tigisoftware.Filza.plist /var/mobile/Library/Preferences/com.tigisoftware.Filza.plist
-        chown -R mobile:mobile /var/mobile/Library/Preferences/com.tigisoftware.Filza.plist
-fi
-
-if [ -e /usr/bin/Filza ]
-then
-	/usr/bin/Filza mobile uicache &> /dev/null
-fi
+exit 0;
