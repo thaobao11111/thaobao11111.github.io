@@ -212,3 +212,25 @@ SHA1: 27820aa2db7d3325e77772514ad9ecb1d0239e4e
 SHA256: 5d98b5fdd988920f40b6376ed5cbae0970b029fce5d678d686a6077c638b6dab
 SHA521: 10a51dea44f96caba5f3441ddf9ef8f6c632fab45e4b19a8cc9886c6aedc555104bc56281be56302d4b10db7e8840ecdfe5b12294b9b35125c804ad647389263
 
+Package: org.mr.a-bypass
+Name: A-Bypass
+Author: Baw Appie <pp121324@gmail.com>
+Description: Super Jailbreak detection bypass!
+Maintainer: MainRepo
+Version: 1.5.4
+Section: Tweaks
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Depiction: https://mrepo.org/depiction/4025
+SileoDepiction: https://mrepo.org/sileo/4025
+Architecture: iphoneos-arm
+Installed-Size: 848
+Icon: https://mrepo.org/CydiaIcon.png
+Filename: debs/org.mr.a-bypass_1.5.4.deb
+Depiction: https://thaobao11111.github.io/depictions/org.mr.a-bypass.html
+Icon: https://thaobao11111.github.io/icons/org.mr.a-bypass.png
+Size: 100740
+MD5sum: 7a7a87aeff173afadce789f12ea0a536
+SHA1: 6c6cf8a52633cd2c1f7b92d73aa4248ac4214d31
+SHA256: 97302ab72e2fd8be152736cf4b8fc6e75677ee301a2d668231270099213253da
+SHA521: d7f6b2f50b9a90f2786b4561cab796412accb67b5a0f6ae68c0168fa47a659dfe5355f0b9955fda6d831d4338d70a836c82e569a52cbc295685aa87840cbc528
+

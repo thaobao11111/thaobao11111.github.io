@@ -1,14 +1,13 @@
-Package: net.kenhtao.cydown
-Version: 7.1.2
+Package: org.mr.a-bypass
+Name: A-Bypass
+Author: Baw Appie <pp121324@gmail.com>
+Description: Super Jailbreak detection bypass!
+Maintainer: MainRepo
+Version: 1.5.4
 Section: Tweaks
-Maintainer: Kênh Táo
-Homepage: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
-Description: Trình quản lý nâng cao hơn dành cho Cydia.
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Depiction: https://mrepo.org/depiction/4025
+SileoDepiction: https://mrepo.org/sileo/4025
 Architecture: iphoneos-arm
-Name: CyDown VN
-Author: julioverne <julioverne@me.com>
-Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.cydown
-Depiction: https://repo.kenhtao.net/view/8216
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Installed-Size: 848
+Icon: https://mrepo.org/CydiaIcon.png
