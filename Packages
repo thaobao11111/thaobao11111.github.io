@@ -212,6 +212,30 @@ SHA1: 27820aa2db7d3325e77772514ad9ecb1d0239e4e
 SHA256: 5d98b5fdd988920f40b6376ed5cbae0970b029fce5d678d686a6077c638b6dab
 SHA521: 10a51dea44f96caba5f3441ddf9ef8f6c632fab45e4b19a8cc9886c6aedc555104bc56281be56302d4b10db7e8840ecdfe5b12294b9b35125c804ad647389263
 
+Package: net.kenhtao.icleanerpro
+Version: 7.9.1
+Section: Utilities
+Maintainer: Kênh Táo
+Homepage: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Description: Trình dọn dẹp và tối ưu hóa hệ thống iOS tốt nhất.
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro
+Replaces: org.altervista.exilecom.icleaner
+Architecture: iphoneos-arm
+Name: iCleaner Pro VN
+Author: Ivano Bilenchi
+Sileodepiction: http://kenhtao.net/sileo-depiction/net.kenhtao.icleanerpro
+Depiction: https://kenhtao.net/view/8713
+Icon: file:///Applications/Cydia.app/Sections/tienich.png
+Filename: debs/net.kenhtao.icleanerpro_7.9.1.deb
+Depiction: https://thaobao11111.github.io/depictions/net.kenhtao.icleanerpro.html
+Icon: https://thaobao11111.github.io/icons/net.kenhtao.icleanerpro.png
+Size: 4804842
+MD5sum: e238f15a7983a0c97ae5c0e674f12e17
+SHA1: 32f740e4a22f764bbffbdd6c3962dc2c17311fde
+SHA256: 207842284cf7fb5b6ad14fdaefc33bdd383558247a961615a8753e6491dcceb9
+SHA521: 9a5e00b219f60ce57d75c6134de2f9f10c58769d790a31d81ea14fd1b0ded7ca641bd554b1edad88d6f800170b0c550cafed21b10d7144f34525cfeaa504cbde
+
 Package: org.mr.a-bypass
 Name: A-Bypass
 Author: Baw Appie <pp121324@gmail.com>
