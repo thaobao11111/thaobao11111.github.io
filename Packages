@@ -78,6 +78,25 @@ SHA1: 74f09c1bb41ffed661eb5627443a7d09893c8c45
 SHA256: c0935408a9cb51f70a7e87815dde894032230be30224fd88307808af3e33d5e1
 SHA521: 8fb29651ab5ac68698940c932e6d9db1488b262586b0c9507300b4929d66115ab41e52f2a5c266d8828a231c77cb980088d38bc58fa1e9fa738643af1016a667
 
+Package: com.gamegod.igg
+Name: iGameGod
+Architecture: iphoneos-arm
+Description: Be the god of your games!
+Maintainer: iGameGod
+Author: iGameGod
+Section: Utilities
+Depends: mobilesubstrate (>= 0.9.5000), FIRMWARE (>= 13) | applist
+Version: 0.2.6.1
+Installed-Size: 184468
+Filename: debs/com.gamegod.igg_0.2.6.1.deb
+Depiction: https://thaobao11111.github.io/depictions/com.gamegod.igg.html
+Icon: https://thaobao11111.github.io/icons/com.gamegod.igg.png
+Size: 39438808
+MD5sum: 5f3f1875c8e6850ffc57c69cf6de3222
+SHA1: 308fa76b261a28efb2055ea94c01460c97d23bd4
+SHA256: e05cabce781baee98250a8153a007d13994a5f1db5a309a8599511d9fdf3b32e
+SHA521: ea35f43747d7320adf7ada5cfb835c2818c24110259811e360a1e4823920789382b8857637499e1cf83cec0c9a8f68e663e234e64a59aaad8d7ec5d165fbff80
+
 Package: com.ichitaso.undecimus
 Version: 8.0.3
 Section: Applications
