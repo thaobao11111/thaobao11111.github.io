@@ -255,6 +255,31 @@ SHA1: 32f740e4a22f764bbffbdd6c3962dc2c17311fde
 SHA256: 207842284cf7fb5b6ad14fdaefc33bdd383558247a961615a8753e6491dcceb9
 SHA521: 9a5e00b219f60ce57d75c6134de2f9f10c58769d790a31d81ea14fd1b0ded7ca641bd554b1edad88d6f800170b0c550cafed21b10d7144f34525cfeaa504cbde
 
+Package: net.kenhtao.locationfakerx
+Version: 2.9-1
+Section: Tweaks
+Maintainer: Kênh Táo
+Homepage: http://cydia.saurik.com/package/com.cunstuck.locationfakerx/
+Description: Giả mạo vị trí của bạn ở bất kỳ đâu.
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.cunstuck.locationfakerx, vn.kenhtao.locationfakerx, org.thebigboss.locationchangerx, org.thebigboss.locationfaker8
+Architecture: iphoneos-arm
+Installed-Size: 2531
+Name: LocationFakerX VN
+Author: CUNSTUCK <cunstuck@gmail.com>
+Sileodepiction: http://kenhtao.net/sileo-depiction/net.kenhtao.locationfakerx
+Depiction: https://kenhtao.net/view/8749
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Tag: purpose::extension
+Filename: debs/net.kenhtao.locationfakerx_2.9-1.deb
+Depiction: https://thaobao11111.github.io/depictions/net.kenhtao.locationfakerx.html
+Icon: https://thaobao11111.github.io/icons/net.kenhtao.locationfakerx.png
+Size: 1389020
+MD5sum: 1de336f90d24a0d129c560ee37b3009b
+SHA1: 1c7db374023e8bec8598a147ea019c7309f4ef12
+SHA256: d63d1afbdcac1b37971db2822c22039055becf086936414ae521c0e2d6db64aa
+SHA521: 9e4665386e61ccc596aaf9092dcaabec0490da408937f6786772f8b921b03b79562fb5410eb825bad1644a40a3c1c430ffa8a868ea34cbdf0be7968156cfee0c
+
 Package: org.mr.a-bypass
 Name: A-Bypass
 Author: Baw Appie <pp121324@gmail.com>
