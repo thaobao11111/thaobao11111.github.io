@@ -1,0 +1,7 @@
+Origin: myrepo
+Label: myrepo
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm, iphoneos-arm64
+Components: main
+Description: My Custom Repo for Jailbreak Apps

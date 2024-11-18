@@ -1,0 +1,6 @@
+Package: myapp
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: me@myemail.com
+Depends: com.apple.later, libirecovery
+Description: My Custom App for Jailbreak
