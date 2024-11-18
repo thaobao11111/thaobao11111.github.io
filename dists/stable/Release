@@ -1,8 +1,5 @@
-Origin: Sileo Repo
-Label: Sileo Repo
-Suite: stable
-Version: 1.0
-Codename: stable
+Origin: myrepo
+Label: stable
 Architectures: iphoneos-arm
 Components: main
-Description: A custom repo for iOS tweaks
+Description: My custom repository
