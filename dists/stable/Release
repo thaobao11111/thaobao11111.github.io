@@ -1,5 +1,8 @@
-Origin: myrepo
-Label: stable
+Origin: My Repo
+Label: My Repo
+Suite: stable
+Codename: stable
+Version: 1.0
 Architectures: iphoneos-arm
 Components: main
-Description: My custom repository
+Description: My custom repo for iPhone
